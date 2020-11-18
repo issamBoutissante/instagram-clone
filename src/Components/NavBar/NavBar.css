@@ -1,8 +1,11 @@
+* {
+  --borderColor: rgba(0, 0, 0, 0.164);
+}
 .navBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.164);
+  border: 1px solid var(--borderColor);
   background-color: white;
 }
