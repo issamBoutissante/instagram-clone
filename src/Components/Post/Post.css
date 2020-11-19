@@ -4,7 +4,17 @@
   border: 1px solid var(--borderColor);
 }
 .post footer {
+  display: flex;
+  flex-direction: column;
+}
+.post p {
   padding: 10px;
+}
+.post input {
+  height: 30px;
+  border: 1px solid var(--borderColor);
+  border-width: 1px 0;
+  color: var(--borderColor);
 }
 .post strong {
   margin-left: 10px;

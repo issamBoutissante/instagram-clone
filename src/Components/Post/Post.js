@@ -15,6 +15,7 @@ function Post({ userName, src, text }) {
           <strong>{userName}</strong>
           {text}
         </p>
+        <input type="text" placeholder="add a comment..." />
       </footer>
     </div>
   );

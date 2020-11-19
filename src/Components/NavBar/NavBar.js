@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className="navBar">
       <img height="35px" src={instagramLogo} alt="instagram-logo"></img>
       <input type="text" placeholder="search"></input>
-      <Avatar></Avatar>
+      <Avatar style={{ zIndex: -1 }} className="avatar"></Avatar>
     </nav>
   );
 };
