@@ -1,20 +1,21 @@
 import { Avatar } from "@material-ui/core";
 import React from "react";
+import "./Post.css";
 
 function Post({ userName, src, text }) {
   return (
     <div className="post">
-      <div>
+      <header>
         <Avatar></Avatar>
         <strong>{userName}</strong>
-      </div>
-      <img src={src}></img>
-      <div>
+      </header>
+      <img src={src} alt="post"></img>
+      <footer>
         <p>
-          <strong>{{ userName }}</strong>
+          <strong>{userName}</strong>
           {text}
         </p>
-      </div>
+      </footer>
     </div>
   );
 }

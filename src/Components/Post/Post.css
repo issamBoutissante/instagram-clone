@@ -1,0 +1,19 @@
+.post {
+  margin: 1px 20px;
+  border: 1px solid var(--borderColor);
+}
+.post footer {
+  padding: 10px;
+}
+.post strong {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.post header {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+.post img {
+  width: 100%;
+}
