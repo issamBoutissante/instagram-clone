@@ -3,6 +3,9 @@
 }
 .navBar {
   display: flex;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
   align-items: center;
   justify-content: space-between;
   padding: 10px;

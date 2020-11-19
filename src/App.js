@@ -13,6 +13,16 @@ function App() {
         text="here will have a dynamic text"
         src={catPicture}
       />
+      <Post
+        userName="issam"
+        text="here will have a dynamic text"
+        src={catPicture}
+      />
+      <Post
+        userName="issam"
+        text="here will have a dynamic text"
+        src={catPicture}
+      />
     </div>
   );
 }
